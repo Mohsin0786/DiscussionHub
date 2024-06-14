@@ -55,7 +55,7 @@ npm install
 ## Run server 
 # Using npm
 ```bash
-node index.js or if using nodemon than npm run app
+npm start or if using nodemon than npm run app
 ```
 
 

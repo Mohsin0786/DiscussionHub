@@ -56,8 +56,6 @@ npm install
 # Using npm
 node index.js or if using nodemon than npm run app
 
-# Using yarn
-yarn start
 
 ##You should check whether your machine is connected to DB or not you hsould whitelist your IP using MongoBD Dashboard
 

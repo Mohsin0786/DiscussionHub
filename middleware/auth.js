@@ -13,6 +13,7 @@ exports.protect = async (req, res, next) => {
         const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
       
         req.user = await User.findById({_id:decoded.id}).select('-password');
+      
         next();
     } catch (err) {
         res.status(401).json({ msg: 'Token is not valid' });

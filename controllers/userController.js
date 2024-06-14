@@ -93,8 +93,9 @@ exports.searchUser = async (req, res) => {
 };
 
 exports.followUser = async (req, res) => {
+    console.log("user",req.user.id)
     try {
-        console.log(req.user.id)
+        
         const [user, userToFollow] = await Promise.all([
             User.findById(req.user._id),
             User.findById(req.params.id),

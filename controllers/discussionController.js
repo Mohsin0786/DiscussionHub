@@ -1,14 +1,14 @@
 const Discussion = require('../models/Discussion');
 
 exports.createDiscussion = async (req, res) => {
-    const { text, hashtags } = req.body;
+    const { text, hashTags } = req.body;
     let image;
 
     if (req.file) {
         image = req.file.path;
     }
 
-    const hashtagsArray = hashtags.split(',').map(tag => tag.trim());
+    const hashtagsArray = hashTags.split(',').map(tag => tag.trim());
 
     try {
         const discussion = new Discussion({

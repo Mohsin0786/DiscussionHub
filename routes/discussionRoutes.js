@@ -23,6 +23,7 @@ router.post('/:id/likes', protect, likeDiscussion);
 router.post('/:id/views', protect, viewDiscussion);
 
 router.delete('/:discussionId/comments/:commentId', protect, deleteComment);
+
 router.put('/:discussionId/comments/:commentId', protect, updateComment);
 router.post('/:discussionId/comments/:commentId/likes', protect, likeComment);
 

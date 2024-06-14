@@ -46,7 +46,7 @@ exports.updateDiscussion = async (req, res) => {
 
         // Update the discussion
         const updates = { ...req.body };
-        const hashtagsArray = req.body.hashtags.split(',').map(tag => tag.trim());
+        const hashtagsArray = req.body.hashTags.split(',').map(tag => tag.trim());
         updates.hashtags = hashtagsArray
         // Check if a new image file is provided
         if (req.file) {

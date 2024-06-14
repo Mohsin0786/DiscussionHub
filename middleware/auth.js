@@ -4,7 +4,7 @@ const User = require('../models/User');
 
 exports.protect = async (req, res, next) => {
     const token = req.header('Authorization')?.replace('Bearer ', '');
-    s
+    
     if (!token) {
         return res.status(401).json({ msg: 'No token, authorization denied' });
     }

@@ -29,7 +29,7 @@ Before running this application, ensure you have the following installed:
 Clone the repository to your local machine using:
 
 ```bash
-git clone [https://github.com/your-username/discussion-platform.git](https://github.com/Mohsin0786/DiscussionHub.git)
+git clone (https://github.com/Mohsin0786/DiscussionHub.git)
 cd discussion-platform
 ```
 

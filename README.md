@@ -1,17 +1,14 @@
-# Discussion Platform
+# Task Manager
 
 ## Overview
 
-The Discussion Platform is a Node.js application designed for creating, discussing, and engaging in community conversations. Users can create discussions, comment, like, and reply to comments. It includes features for uploading images and tagging discussions with hashtags.
+The Task Manager is a Node.js application designed for managing and tracking tasks. Users can create tasks, update their status, and organize them into projects. The application supports user authentication, and deadline management.
 
 ## Features
 
 - User Authentication (Sign up, Login)
-- Create, Update, and Delete Discussions
-- Add Comments and Replies to Discussions
-- Like Comments and Replies
-- Filter Discussions by Hashtags or Text
-- Upload Images for Discussions
+- Create, Update, and Delete Tasks
+- Organize Tasks into Projects
 - Secure Password Storage
 
 ## Prerequisites
